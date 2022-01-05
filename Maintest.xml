@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name = "hobby" value="cricket" />
+   <classes>
+         <class name = "framework_test.Maintest" />
+              <class name = "framework_test.Commonpage" />
+      </classes>
+  </test> <!-- Test -->
+   <test name="Test1">
+  <parameter name = "hobby" value="hockey" />
+  
+   <classes>
+         <class name = "framework_test.Maintest" />
+         <class name = "framework_test.Commonpage" />
+      </classes>
+  </test> <!-- Test -->
+   <test name="Test2">
+  <parameter name = "hobby" value="movies" />
+  
+   <classes>
+         <class name = "framework_test.Maintest" />
+         <class name = "framework_test.Commonpage" />
+      </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

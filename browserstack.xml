@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Win11c94">
+ 
+  <parameter name = "browser" value="Chrome"/> 
+  <parameter name = "os_version" value="11"/>
+  <parameter name= "browser_version" value = "94.0"/>
+
+    <classes>
+      <class name="com.java.testNG.Browserstack"/>
+    </classes>
+  </test> <!-- Test -->
+   <test thread-count="5" name="Win10f94">
+ 
+  <parameter name = "browser" value="Firefox"/> 
+  <parameter name = "os_version" value="10"/>
+  <parameter name= "browser_version" value = "94.0"/>
+
+    <classes>
+      <class name="com.java.testNG.Browserstack"/>
+    </classes>
+  </test> <!-- Test -->
+  <test thread-count="5" name="Winxpo1215">
+ 
+  <parameter name = "browser" value="Opera"/> 
+  <parameter name = "os_version" value="XP"/>
+  <parameter name= "browser_version" value = "12.15"/>
+
+    <classes>
+      <class name="com.java.testNG.Browserstack"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

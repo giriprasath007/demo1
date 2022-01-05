@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-01T16:56:20Z" name="Default suite" finished-at="2021-12-01T16:57:24Z" duration-ms="63383">
+    <groups>
+    </groups>
+    <test started-at="2021-12-01T16:56:20Z" name="Default test" finished-at="2021-12-01T16:57:24Z" duration-ms="63383">
+      <class name="framework_test.Amazoncheckout">
+        <test-method is-config="true" signature="loadprop()[pri:0, instance:framework_test.Amazoncheckout@32ee6fee]" started-at="2021-12-01T22:26:20Z" name="loadprop" finished-at="2021-12-01T22:26:21Z" duration-ms="462" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadprop -->
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:framework_test.Amazoncheckout@32ee6fee]" started-at="2021-12-01T22:26:21Z" name="launchbrowser" finished-at="2021-12-01T22:26:36Z" duration-ms="15397" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="checkout()[pri:0, instance:framework_test.Amazoncheckout@32ee6fee]" started-at="2021-12-01T22:26:36Z" name="checkout" finished-at="2021-12-01T22:27:23Z" duration-ms="46825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkout -->
+        <test-method is-config="true" signature="endreport()[pri:0, instance:framework_test.Amazoncheckout@32ee6fee]" started-at="2021-12-01T22:27:23Z" name="endreport" finished-at="2021-12-01T22:27:24Z" duration-ms="664" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endreport -->
+      </class> <!-- framework_test.Amazoncheckout -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

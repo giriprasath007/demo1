@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="hobby1" value="comm.cricket"/>
+  <test name="Test(failed)">
+    <parameter name="hobby1" value="comm.cricket"/>
+    <classes>
+      <class name="framework_test.Maintest">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="register"/>
+        </methods>
+      </class> <!-- framework_test.Maintest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

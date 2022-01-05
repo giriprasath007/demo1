@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  
+  <test thread-count="5" name="Winxpo1215">
+ 
+  <parameter name = "browser" value="Opera"/> 
+  <parameter name = "os_version" value="XP"/>
+  <parameter name= "browser_version" value = "12.16"/>
+
+    <classes>
+      <class name="com.java.testNG.Browserstack"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
